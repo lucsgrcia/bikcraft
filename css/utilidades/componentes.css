@@ -1,22 +1,17 @@
-.ponto {
-  color: #ffbb00;
-}
-
 .botao {
   padding: 16px 32px;
   text-transform: uppercase;
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.33;
-  color: #332200;
-  background: linear-gradient(#ffbf00, #f2a60c);
+  color: var(--p5);
+  background: var(--gradient-1);
   box-shadow: 0 1px 2px rgb(0, 0, 0, 0.1);
-  font-family: "Poppins";
-  font-weight: 600;
+  font:
+    600 1.125rem/1.35 "Poppins",
+    sans-serif;
 }
 
 .botao:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: var(--gradient-2);
 }
 
 @media (max-width: 600px) {
