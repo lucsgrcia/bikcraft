@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nebula | Bikcraft</title>
     <meta name="description" content="Nebula" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="../css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wght@0,500;1,500&family=Merriweather:ital,opsz,wght@1,18..144,900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="bicicleta">
     <header>
@@ -54,7 +59,11 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">comprar agora</a>
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=nebula"
+              >comprar agora</a
+            >
             <span class="font-1-xs c6"
               ><img src="../img/icones/entrega.svg" alt="" />
               entrega em 5 dias
@@ -202,5 +211,6 @@
         </p>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>

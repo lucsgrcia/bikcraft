@@ -5,6 +5,7 @@
 @import url("./utilidades/cores.css");
 @import url("./utilidades/tipografia.css");
 @import url("./utilidades/formulario.css");
+@import url("./utilidades/animacao.css");
 
 /* Header e Footer */
 @import url("./global/header.css");
@@ -14,7 +15,6 @@
 @import url("./home/introducao.css");
 @import url("./home/tecnologia.css");
 @import url("./home/parceiros.css");
-@import url("./home/seguros.css");
 
 /* Bicicleta */
 @import url("./bicicleta/bicicleta.css");
